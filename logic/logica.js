@@ -1,6 +1,6 @@
 let tarefas = []; 
 
-document.getElementById("botaoAdicionarTarefa").addEventListener("click", function() {
+document.getElementById("addTaskButton").addEventListener("click", function() {
     const taskInput = document.getElementById("inputTarefa");
     const taskText = taskInput.value.trim();
 
