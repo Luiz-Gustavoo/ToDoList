@@ -42,15 +42,15 @@ li {
 }
 
 span {
-    flex-grow: 1;
+    flex-grow: 1; 
     margin-right: 10px; 
 }
 
 li:hover {
-    background: #ddd; 
+    background: #ddd;
 }
 
-#botaoAdicionarTarefa {
+#addTaskButton {
     background-color: rgb(54, 54, 207);
     color: white; 
     border: none; 
@@ -80,9 +80,9 @@ li:hover {
 }
 
 .completed {
-
+    text-decoration: line-through; 
     color: white; 
-    background-color: #5e5959; 
+    background-color: #5e5959;
 }
 
 .completed:hover {
